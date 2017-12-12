@@ -12,6 +12,12 @@ assigned:
         show_in_menu: true
         show_in_footer: false
     -
+        text: Testpage
+        href: pages/testpage.md
+        permalink: /testpage/
+        show_in_menu: true
+        show_in_footer: true
+    -
         text: Work
         href: pages/projects.md
         permalink: /projects/
