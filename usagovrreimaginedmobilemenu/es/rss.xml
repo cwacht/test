@@ -1,0 +1,1226 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-rss.html.twig' -->
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://127.0.0.1/es" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>USA.revamp</title>
+    <link>http://127.0.0.1/es</link>
+    <description></description>
+    <language>es</language>
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Vivienda</title>
+  <link>http://127.0.0.1/es/vivienda</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Vivienda&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Mon, 03/21/2022 - 09:08&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Información sobre ayuda del Gobierno para personas sin hogar, pagar el alquiler, comprar vivienda y evitar la ejecución hipotecaria, entre otros.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(https://cg-c5d34aa7-f68b-46f1-973c-51b1548bbea1.s3.us-gov-west-1.amazonaws.com/public/2022-03/Banner_img_Housing.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://beta.usa.gov/es/programas-ayuda-pagar-renta&quot;&gt;Programas de ayuda para pagar la renta&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://beta.usa.gov/es/vivienda-personas-sin-hogar&quot;&gt;Ayuda para las personas sin hogar&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://cms.usa.gov/es/ejecuci%C3%B3n-hipotecaria&quot;&gt;C&amp;oacute;mo evitar la ejecuci&amp;oacute;n hipotecaria&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 21 Mar 2022 13:08:01 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">557 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Desastres y emergencias</title>
+  <link>http://127.0.0.1/es/desastres-emergencias</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Desastres y emergencias&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Fri, 03/11/2022 - 09:16&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Averigüe cómo obtener ayuda económica y recuperarse de un desastre o emergencia.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_Disasters_and_Emergencies_0.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/es/ayuda-financiera-desastre&quot;&gt;Obtener ayuda económica por desastre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/es/desastre-refugio-vivienda&quot;&gt;Encontrar refugio o vivienda tras desastre&lt;/a&gt;&lt;/li&gt;        
+&lt;li&gt;&lt;a href=&quot;/es/desastres-encontrar-notificar-familiares&quot;&gt;Encontrar a familiares tras desastre&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Fri, 11 Mar 2022 14:16:18 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">536 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Ayuda económica y beneficios del Gobierno</title>
+  <link>http://127.0.0.1/es/beneficios-gobierno</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Ayuda económica y beneficios del Gobierno&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Tue, 02/01/2022 - 08:11&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Encuentre información sobre los programas de ayuda del Gobierno de EE. UU., requisitos para solicitar beneficios, cómo y dónde aplicar.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_Benefits.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/ayuda-pagar-facturas&quot;&gt;Ayuda para pagar facturas&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/asistencia-alimentaria&quot;&gt;Ayuda para conseguir comida&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/seguro-social&quot;&gt;Beneficios del Seguro Social&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Tue, 01 Feb 2022 13:11:29 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">519 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Salud</title>
+  <link>http://127.0.0.1/es/salud</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Salud&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Thu, 01/13/2022 - 13:30&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Encuentre recursos de salud del Gobierno de Estados Unidos. Información sobre seguros médicos y programas de asistencia del Gobierno.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_Health.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/es/ayuda-salud-mental-abuso-sustancias&quot;&gt;Ayuda para salud mental y abuso de sustancias&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt;&lt;a href=&quot;/es/seguros-medicos&quot;&gt;Seguros m&amp;eacute;dicos en EE. UU.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/es/ayuda-gastos-medicos&quot;&gt;Ayuda para gastos m&amp;eacute;dicos&lt;/a&gt;&lt;/li&gt;            
+
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Thu, 13 Jan 2022 18:30:21 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">489 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Estafas y fraudes</title>
+  <link>http://127.0.0.1/es/estafas-y-fraudes</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Estafas y fraudes&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Wed, 11/10/2021 - 13:45&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_Scams_and_Frauds.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout padding-3&quot;&gt;
+      &lt;h2 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Most Popular&lt;/h2&gt;
+      &lt;ul&gt;
+        
+&lt;li&gt;&lt;a href=&quot;/es/donde-reportar-una-estafa#block-wizardespanol&quot;&gt;Sepa dónde reportar una estafa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/es/robo-identidad&quot;&gt;Reconozca las señales de alerta de robo de identidad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/es/estafas-impostores&quot;&gt;Protéjase de las estafas de impostores&lt;/a&gt;&lt;/li&gt;
+   
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+ &lt;div class=&quot;usa-prose&quot;&gt;
+&lt;p class=&quot;usa-intro&quot;&gt;Aprenda cómo protegerse y qué hacer ante estafas y fraudes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;usagov-cards&quot;&gt;
+  &lt;ul class=&quot;usa-card-group&quot;&gt;
+        &lt;li class=&quot;tablet:grid-col-4 usa-card&quot;&gt;
+      &lt;a href=&quot;/es/donde-reportar-una-estafa#block-wizardespanol&quot; class=&quot;usa-card__container usagov-card text-no-underline&quot;&gt;&lt;div class=&quot;views-field views-field-title&quot;&gt;&lt;span class=&quot;field-content&quot;&gt;
+  &lt;header class=&quot;usa-card__header&quot;&gt;
+    &lt;h2 class=&quot;usa-card__heading usagov-card__heading&quot;&gt;Dónde reportar una estafa&lt;/h2&gt;
+  &lt;/header&gt;
+
+&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;views-field views-field-field-page-intro&quot;&gt;&lt;div class=&quot;field-content&quot;&gt;
+&lt;div class=&quot;usa-card__body padding-top-0&quot;&gt;
+  &lt;p&gt;¿Ha sufrido una estafa y quiere reportarla? Solo responda unas cuantas preguntas para saber cómo reportar la estafa en el lugar correcto.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+
+
+&lt;li class=&quot;tablet:grid-col-4 usa-card&quot;&gt;
+      &lt;a href=&quot;/es/estafas-beneficios-desempleo&quot; class=&quot;usa-card__container usagov-card text-no-underline&quot;&gt;&lt;div class=&quot;views-field views-field-title&quot;&gt;&lt;span class=&quot;field-content&quot;&gt;
+  &lt;header class=&quot;usa-card__header&quot;&gt;
+    &lt;h2 class=&quot;usa-card__heading usagov-card__heading&quot;&gt;Estafas de beneficios de desempleo
+&lt;/h2&gt;
+  &lt;/header&gt;
+
+&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;views-field views-field-field-page-intro&quot;&gt;&lt;div class=&quot;field-content&quot;&gt;
+&lt;div class=&quot;usa-card__body padding-top-0&quot;&gt;
+  &lt;p&gt;Hay estafadores que solicitan beneficios de desempleo usando información personal de otras personas. Sepa cómo protegerse y proteger sus beneficios de este tipo de robo de identidad.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+
+&lt;li class=&quot;tablet:grid-col-4 usa-card&quot;&gt;
+      &lt;a href=&quot;/es/estafas-impostores&quot; class=&quot;usa-card__container usagov-card text-no-underline&quot;&gt;&lt;div class=&quot;views-field views-field-title&quot;&gt;&lt;span class=&quot;field-content&quot;&gt;
+  &lt;header class=&quot;usa-card__header&quot;&gt;
+    &lt;h2 class=&quot;usa-card__heading usagov-card__heading&quot;&gt;Estafas de impostores&lt;/h2&gt;
+  &lt;/header&gt;
+
+&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;views-field views-field-field-page-intro&quot;&gt;&lt;div class=&quot;field-content&quot;&gt;
+&lt;div class=&quot;usa-card__body padding-top-0&quot;&gt;
+  &lt;p&gt;Los impostores fingen ser del IRS, del Seguro Social, de una compañía u organización benéfica. Ellos intentan ganar su confianza para robar su información personal y su dinero.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+
+&lt;li class=&quot;tablet:grid-col-4 usa-card&quot;&gt;
+      &lt;a href=&quot;/es/estafas-relacionadas-covid&quot; class=&quot;usa-card__container usagov-card text-no-underline&quot;&gt;&lt;div class=&quot;views-field views-field-title&quot;&gt;&lt;span class=&quot;field-content&quot;&gt;
+  &lt;header class=&quot;usa-card__header&quot;&gt;
+    &lt;h2 class=&quot;usa-card__heading usagov-card__heading&quot;&gt;Estafas relacionadas con el COVID-19&lt;/h2&gt;
+  &lt;/header&gt;
+
+&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;views-field views-field-field-page-intro&quot;&gt;&lt;div class=&quot;field-content&quot;&gt;
+&lt;div class=&quot;usa-card__body padding-top-0&quot;&gt;
+  &lt;p&gt;Durante el brote de COVID-19, los estafadores pueden tratar de venderle pruebas de detección y tratamientos falsos. Sepa cómo protegerse de este tipo de fraudes y dónde reportarlos.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+
+
+&lt;li class=&quot;tablet:grid-col-4 usa-card&quot;&gt;
+      &lt;a href=&quot;/es/estafas-tramites-migratorios&quot; class=&quot;usa-card__container usagov-card text-no-underline&quot;&gt;&lt;div class=&quot;views-field views-field-title&quot;&gt;&lt;span class=&quot;field-content&quot;&gt;
+  &lt;header class=&quot;usa-card__header&quot;&gt;
+    &lt;h2 class=&quot;usa-card__heading usagov-card__heading&quot;&gt;Estafas relacionadas con trámites migratorios&lt;/h2&gt;
+  &lt;/header&gt;
+
+&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;views-field views-field-field-page-intro&quot;&gt;&lt;div class=&quot;field-content&quot;&gt;
+&lt;div class=&quot;usa-card__body padding-top-0&quot;&gt;
+  &lt;p&gt;Los estafadores intentan engañar a extranjeros que desean visitar, emigrar o que ya viven en Estados Unidos y deben hacer trámites migratorios.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+
+&lt;li class=&quot;tablet:grid-col-4 usa-card&quot;&gt;
+      &lt;a href=&quot;/es/robo-identidad&quot; class=&quot;usa-card__container usagov-card text-no-underline&quot;&gt;&lt;div class=&quot;views-field views-field-title&quot;&gt;&lt;span class=&quot;field-content&quot;&gt;
+  &lt;header class=&quot;usa-card__header&quot;&gt;
+    &lt;h2 class=&quot;usa-card__heading usagov-card__heading&quot;&gt;Robo de identidad&lt;/h2&gt;
+  &lt;/header&gt;
+
+&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;views-field views-field-field-page-intro&quot;&gt;&lt;div class=&quot;field-content&quot;&gt;
+&lt;div class=&quot;usa-card__body padding-top-0&quot;&gt;
+  &lt;p&gt;El robo de identidad sucede cuando alguien utiliza su información financiera o personal sin su autorización.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
+    &lt;/li&gt;
+
+
+      &lt;/ul&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Wed, 10 Nov 2021 18:45:48 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">483 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Acerca de Estados Unidos y su Gobierno</title>
+  <link>http://127.0.0.1/es/acerca-de-estados-unidos</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Acerca de Estados Unidos y su Gobierno&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Mon, 11/08/2021 - 11:36&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Encuentre información sobre el Gobierno de Estados Unidos y quiénes son sus funcionarios electos.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_About_the_US_and_Its_Government.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/funcionarios-electos&quot;&gt;Funcionarios electos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/es/dias-festivos-estados-unidos&quot;&gt;Días festivos federales&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/es/presidente-vicepresidente-primera-dama&quot;&gt;Presidentes, vicepresidentes y primeras damas&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 08 Nov 2021 16:36:43 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">482 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Dinero</title>
+  <link>http://127.0.0.1/es/dinero</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Dinero&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Mon, 10/25/2021 - 10:10&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Averigüe cómo encontrar dinero sin reclamar. Encuentre información sobre subvenciones y préstamos del Gobierno.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_Money_and_Credit.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/dinero-sin-reclamar&quot;&gt;Cómo buscar dinero no reclamado en poder del Gobierno&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/gobierno-no-da-dinero-gratis&quot;&gt;El Gobierno no entrega “dinero gratis”&lt;/a&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Mon, 25 Oct 2021 14:10:31 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">475 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_row_rss' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+<item>
+  <title>Leyes y asuntos legales</title>
+  <link>http://127.0.0.1/es/leyes-y-asuntos-legales</link>
+  <description>
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--title--basic-page.html.twig
+   x field--node--title.html.twig
+   * field--node--basic-page.html.twig
+   * field--title.html.twig
+   * field--string.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+&lt;span&gt;Leyes y asuntos legales&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--title.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--uid--basic-page.html.twig
+   x field--node--uid.html.twig
+   * field--node--basic-page.html.twig
+   * field--uid.html.twig
+   * field--entity-reference.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+&lt;span&gt;
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;username&#039; --&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+&lt;span&gt;Anonymous (not verified)&lt;/span&gt;
+&lt;!-- END OUTPUT from &#039;core/modules/user/templates/username.html.twig&#039; --&gt;
+
+&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--uid.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--created--basic-page.html.twig
+   x field--node--created.html.twig
+   * field--node--basic-page.html.twig
+   * field--created.html.twig
+   * field--created.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+&lt;span&gt;Thu, 10/21/2021 - 13:16&lt;/span&gt;
+
+&lt;!-- END OUTPUT from &#039;core/modules/node/templates/field--node--created.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;links__node&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * links--node.html.twig
+   x links.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/links.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--field-page-intro--basic-page.html.twig
+   x field--node--field-page-intro.html.twig
+   * field--node--basic-page.html.twig
+   * field--field-page-intro.html.twig
+   * field--string-long.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+        &lt;div class=&quot;usa-prose&quot;&gt;
+        &lt;p class=&quot;usa-intro&quot;&gt;
+            Aprenda cómo reemplazar documentos de identidad y certificados del registro civil, obtenga ayuda para reclamar la manutención infantil y conozca cómo encontrar un abogado.
+        &lt;/p&gt;
+    &lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--field-page-intro.html.twig&#039; --&gt;
+
+
+
+&lt;!-- THEME DEBUG --&gt;
+&lt;!-- THEME HOOK: &#039;field&#039; --&gt;
+&lt;!-- FILE NAME SUGGESTIONS:
+   * field--node--body--basic-page.html.twig
+   * field--node--body.html.twig
+   * field--node--basic-page.html.twig
+   * field--body.html.twig
+   * field--text-with-summary.html.twig
+   * field.html.twig
+--&gt;
+&lt;!-- BEGIN OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+  
+            &lt;div class=&quot;usa-prose body-copy&quot;&gt;&lt;section class=&quot;usa-hero usagov-hero&quot; aria-label=&quot;Introduction&quot; style=&quot;background-image: url(/themes/custom/usagov/images/topics/Banner_img_Laws_and_Legal_Issues.png)&quot;&gt;
+  &lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;usa-hero__callout usagov-hero__callout&quot;&gt;
+      &lt;h1 class=&quot;usa-hero__heading&quot;&gt;&lt;span class=&quot;usa-hero__heading--alt&quot;&gt;Lo más popular&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/asistencia-legal-gratis&quot;&gt;Cómo encontrar un abogado&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/manutencion-infantil&quot;&gt;Obtener ayuda para reclamar la manutención infantil&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/es/certificado-del-registro&quot;&gt;Solicitud de copias de certificados del registro civil&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;/div&gt;
+      
+&lt;!-- END OUTPUT from &#039;themes/custom/usagov/templates/field--node--basic_page.html.twig&#039; --&gt;
+
+</description>
+  <pubDate>Thu, 21 Oct 2021 17:16:28 +0000</pubDate>
+    <dc:creator>Anonymous</dc:creator>
+    <guid isPermaLink="false">465 at http://127.0.0.1</guid>
+    </item>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-row-rss.html.twig' -->
+
+
+  </channel>
+</rss>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-rss.html.twig' -->
+
