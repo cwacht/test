@@ -13,3 +13,14 @@
 	    }
 	});
 })();
+
+
+(function focusHomeLink() {
+    nav_button = document.querySelector('.usa-menu-btn');
+    home_link = document.querySelector('#mobile-menu-home-link');
+	nav_button.addEventListener("click", function(e) {
+		setTimeout(() => { 
+			home_link.focus();
+		}, 100);
+	});
+})();
