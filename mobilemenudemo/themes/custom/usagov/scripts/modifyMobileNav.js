@@ -15,11 +15,14 @@
 })();
 
 
-(function focusHomeLink() {
-    nav_button = document.querySelector('.usa-menu-btn');
-    home_link = document.querySelector('#mobile-menu-home-link');
-	nav_button.addEventListener("click", function(e) {
-		setTimeout(() => { 
+(function menuButtonModifications() {
+	let menu_button = document.querySelector('.usa-menu-btn');
+	let navbar = document.querySelector('.usa-navbar');
+	let home_link = document.querySelector('#mobile-menu-home-link');
+	menu_button.addEventListener("click", function (e) {
+		navbar.setAttribute('aria-hidden', 'true');
+		navbar.setAttribute('data-nav-hidden', 'true');
+		setTimeout(() => {
 			home_link.focus();
 		}, 100);
 	});
