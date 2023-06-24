@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include "partials/head.njk" %}
+  <body>
+    <header class="c-siteheader">
+      <div class="l-container  c-siteheader__inner">
+        <div class="c-siteheader__logo">
+          <p class="c-logo">
+            <a class="c-logo__link" href="/">
+              KiP's Family Gymnastics
+              {# {% include "svg/logo.svg" %} #}
+            </a>
+          </p>
+        </div>
+        <nav class="c-siteheader__nav">
+          {% for item in mainnav %}
+            {% if loop.first %}<ul class="c-mainnav">{% endif %}
+
+              {% set activeClass = "" %}
+              {% set activeAria = "" %}
+              {% if item.id == currentSectionId %}
+                {% set activeClass = "is-active" %}
+                {% set activeAria = 'aria-current="page"' | safe %}
+              {% endif %}
+
+              <li class="c-mainnav__item"><a href="{{- item.link -}}" class="c-mainnav__link  {{ activeClass }}" {{ activeAria }}>{{ item.label }}</a></li>
+            {% if loop.last %}</ul>{% endif %}
+          {% endfor %}
+        </nav>
+        <p class="c-siteheader__navtrigger">
+          <a class="c-hamburger__link  js-navtoggle" href="#sitefooter">{% include "svg/hamburger.svg" %}</a>
+        </p>
+      </div>
+    </header>
+
+    <div class="c-mobilemenu  js-mobilemenu">
+      <div class="l-container  c-mobilemenu__inner">
+        <div class="c-mobilemenu__header">
+          <p class="c-logo  c-logo--invert"><a class="c-logo__link" href="/{{ locale }}/">{% include "svg/logo_dark.svg" %}</a></p>
+          <button class="c-closemenu  js-navtoggle">{% include "svg/icon_close.svg" %}</button>
+        </div>
+        <nav class="c-mobilemenu__navigation">
+          {% for item in mainnav %}
+            {% if loop.first %}<ul class="c-mobilenav">{% endif %}
+
+              {% set activeClass = "" %}
+              {% set activeAria = "" %}
+              {% if item.id == currentSectionId %}
+                {% set activeClass = "is-active" %}
+                {% set activeAria = 'aria-current="page"' | safe %}
+              {% endif %}
+
+              <li class="c-mobilenav__item"><a class="c-mobilenav__link  {{ activeClass }}" href="{{- item.link -}}" {{ activeAria }}>{{ item.label }}</a></li>
+            {% if loop.last %}</ul>{% endif %}
+          {% endfor %}
+        </nav>
+      </div>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <footer class="c-sitefooter" id="sitefooter">
+      <div class="l-container  c-sitefooter__inner">
+        <nav class="c-sitefooter__contact">
+          <h2></h2>
+          <ul class="c-footernav">
+            <li class="c-footernav__item"><a class="c-footernav__link" href="tel:6031112298">603-111-2298</a></li>
+            <li class="c-footernav__item"><a class="c-footernav__link" href="mailto:kipsgym@gmail.com">kipsgym@gmail.com</a></li>
+            <li class="c-footernav__item"><a class="c-footernav__link" href="https://goo.gl/maps/FnegkAf8dgQG84f88">42 Wallaby Way, Sydney</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

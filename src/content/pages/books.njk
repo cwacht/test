@@ -1,0 +1,55 @@
+---
+pagination:
+  data: collections.books
+  size: 12
+  alias: books
+permalink: /classes/{% if pagination.pageNumber > 0 %}/page{{ pagination.pageNumber + 1 }}{% endif %}/index.html
+translationKey: "booksPage"
+pageTitle: "A few books"
+pageIntro: "Our selection of books to discover collapsology and related scientific fields and disciplines, while sitting by the fire, in your favourite rocking-chair."
+---
+
+{% extends "layouts/base.njk" %}
+
+{% set metaTitle = pageTitle %}
+{% set metaDescription = pageIntro %}
+{% set metaImage = site.baseUrl ~ "/assets/img/social_media.jpg" %}
+{% set currentSectionId = "books" %}
+
+{% from "macros/bookItem.njk" import bookItem %}
+
+{% block content %}
+<main>
+  <div class="c-pagesection  c-pagesection--dark  u-padding-top-xl">
+    <div class="l-container  l-container--narrow">
+      <h1 class="c-h1  u-text-white">{{ pageTitle }}</h1>
+      <p class="c-pageintro">{{ pageIntro }}</p>
+    </div>
+  </div>
+  <div class="c-pagesection">
+    <div class="l-container  l-container--narrow">
+
+      {% for book in books %}
+        {% if loop.first %}<ul class="l-grid  l-grid--gap  l-grid--2cols@small  l-grid--3cols@medium">{% endif %}
+
+          <li>
+            {{ bookItem(
+              url = book.data.url, 
+              cover = book.data.cover, 
+              title = book.data.title,
+              author = book.data.author, 
+              editor = book.data.editor, 
+              year = book.data.year
+            ) }}
+          </li>
+
+        {% if loop.last %}</ul>{% endif %}
+      {% endfor %}
+
+      {# pagination #}
+      {% include "partials/pagination.njk" %}
+
+    </div>
+  </div>
+</main>
+{% endblock %}

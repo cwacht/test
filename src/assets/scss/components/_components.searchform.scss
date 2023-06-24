@@ -1,0 +1,65 @@
+// ---------------------------
+// =searchform
+// ---------------------------
+
+.c-searchform {
+  margin: 0;
+  padding: calc(24 / 16 * 1rem) 0 0;
+}
+
+.c-searchform__field {
+  position: relative;
+}
+
+.c-searchform__input {
+  box-sizing: border-box;
+  padding: 6px 60px 6px 12px;
+  border: 1px solid var(--color-gray3);
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  font-size: calc(18 / 16 * 1rem);
+  line-height: calc(30 / 18);
+  color: var(--color-gray7);
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+
+  @include mq(medium) {
+    padding: 18px 60px 18px 18px;
+  }
+}
+
+.c-searchform__input:focus {
+  border: 1px solid var(--color-primary-main);
+  outline: none;
+}
+
+.c-searchform__submit,
+.c-searchform__reset {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 24px;
+  height: 24px;
+  transform: translate3d(0, -50%, 0);
+  text-indent: -9999px;
+  overflow: hidden;
+  background-color: transparent;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c-searchform__submit {
+  background-image: url(../img/icon_search.svg);
+}
+
+.c-searchform__reset {
+  background-image: url(../img/icon_reset.svg);
+}

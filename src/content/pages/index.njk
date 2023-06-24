@@ -1,0 +1,147 @@
+---
+permalink: /index.html
+translationKey: "homePage"
+pageTitle: "Home"
+pageIntro: "Better understand the current risks of social and environmental collapses."
+---
+
+{% extends "layouts/base.njk" %}
+
+{% set metaTitle = pageTitle %}
+{% set metaDescription = pageIntro %}
+{% set metaImage = site.baseUrl ~ "/assets/img/social_media.jpg" %}
+{% set currentSectionId = "home" %}
+
+{% from "macros/bookItem.njk" import bookItem %}
+{% from "macros/linkItem.njk" import linkItem %}
+
+{% block content %}
+<main>
+
+  <section class="c-pagesection  c-pagesection--dark  u-padding-top-xl  u-padding-bottom-none">
+    <div class="l-container">
+
+      <h1 class="c-tagline">Welcome to <span>Kips Gymnastics!</span></h1>
+      <p>Our gym is for families, by families. We provide a positive approach to gymnastics training for athletes at a variety of levels and styles; supporting gymnasts from all walks of life from 6 months to 16 to 60+. Falls Church Family Gymnastics strives to provide safe and fun gymnastics training at a variety of levels and styles, through skilled instruction, positive coaching, and an intentional, pervasive culture of caring. We are families serving families, by promoting strength of mind, body, and character in athletes of all ages through the dynamic and extensive realm of sport that is gymnastics. Our mission is in line with that of USA Gymnastics, “to build a community and culture of health, safety and excellence, where athletes can thrive in sport and in life.”</p>
+
+    </div>
+  </section>
+
+  <section class="c-pagesection  c-pagesection--dark">
+    <div class="l-container">
+
+      <div class="c-homesplit">
+        <div class="c-homesplit__science">
+
+          <div class="c-card">
+            <div class="c-card__media"><a href="/{{ locale }}/science/">
+              <img src="/assets/img/databases/database_science.jpg"
+                  srcset="/assets/img/databases/_600x450/database_science.jpg 600w,
+                          /assets/img/databases/database_science.jpg 800w"
+                  sizes="(min-width: 1344px) 600px,
+                         (min-width: 500px) 50vw,
+                         100vw"
+                  class="o-fluidimage"
+                  alt="bib.collapse">
+            </a></div>
+            <div class="c-card__body">
+              <h2 class="c-card__title  c-h2  c-h2--invert"><a href="/{{ locale }}/science/">Scientific literature</a></h2>
+              <p class="c-text-gray5">Database of scientific articles, academic books and institutional reports on topics related to collapsology.</p>
+              <p><a class="c-button  c-button--invert  c-button--cta" href="/{{ locale }}/science/">bib.collapse</a></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="c-homesplit__press">
+
+          <div class="c-card">
+            <div class="c-card__media"><a title="Press database" href="https://www.reddit.com/r/collapse/">
+              <img src="/assets/img/databases/database_press.jpg"
+                   srcset="/assets/img/databases/_600x450/database_press.jpg 600w,
+                           /assets/img/databases/database_press.jpg 800w"
+                   sizes="(min-width: 1344px) 600px,
+                          (min-width: 1024px) 38vw,
+                          (min-width: 500px) 50vw,
+                          100vw"
+                   class="o-fluidimage"
+                   alt="Press database">
+            </a></div>
+            <div class="c-card__body">
+              <h2 class="c-card__title  c-h2  c-h2--invert"><a href="https://www.reddit.com/r/collapse/">Reddit group</a></h2>
+              <p class="c-text-gray5">A Reddit group seeking to deepen everyone's understanding of collapse and helping collapsonauts support each other.</p>
+              <p><a class="c-button  c-button--invert  c-button--cta" href="https://www.reddit.com/r/collapse/">Collapse of civilisation<span class="c-icon  c-icon--after  c-icon--small">{% include "svg/icon_external.svg" %}</span></a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="c-pagesection  c-pagesection--border">
+    <div class="l-container  l-split  l-split--1fr3fr">
+      <div>
+
+        <h2 class="c-h2  u-margin-bottom-none">Books</h2>
+        <p class="u-text-gray3  u-margin-bottom-xxl">Collapsology in writing</p>
+
+      </div>
+      <div>
+
+        {% set books = collections.books | limit(6) %}
+        {% for book in books %}
+          {% if loop.first %}<ul class="l-grid  l-grid--gap  l-grid--2cols@small  l-grid--3cols@medium">{% endif %}
+
+            <li>
+              {{ bookItem(
+                url = book.data.url, 
+                cover = book.data.cover, 
+                title = book.data.title,
+                author = book.data.author, 
+                editor = book.data.editor, 
+                year = book.data.year
+              ) }}
+            </li>
+
+          {% if loop.last %}</ul>{% endif %}
+        {% endfor %}
+
+        <p class="u-margin-top-l"><a class="c-ctalink" href="/{{ locale }}/books/">Discover more books</a></p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="c-pagesection  c-pagesection--border">
+    <div class="l-container  l-split  l-split--1fr3fr">
+      <div>
+
+        <h2 class="c-h2  u-margin-bottom-none">Websites</h2>
+        <p class="u-text-gray3  u-margin-bottom-xxl">Collapsology online</p>
+
+      </div>
+      <div>
+
+        {% set links = collections.links | shuffle | limit(6) %}
+        {% for link in links %}
+          {% if loop.first %}<ul class="l-grid  l-grid--colgap  l-grid--rowgap-s  l-grid--2cols@medium">{% endif %}
+            <li>
+              {{ linkItem(
+                url = link.data.url,
+                title = link.data.title,
+                content = link.templateContent | safe
+              ) }}
+            </li>
+          {% if loop.last %}</ul>{% endif %}
+        {% endfor %}
+
+        <p class="u-margin-top-l"><a class="c-ctalink" href="/{{ locale }}/links/">Discover more links</a></p>
+
+      </div>
+    </div>
+  </section>
+
+
+</main>
+{% endblock %}
