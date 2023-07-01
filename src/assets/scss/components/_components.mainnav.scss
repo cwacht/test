@@ -25,17 +25,17 @@
   font-size: calc(18 / 16 * 1rem);
   line-height: calc(24 / 18);
   text-decoration: none;
-  color: var(--color-gray5);
+  color: var(--color-white);
 
   transition: color 0.15s ease-in-out;
 
   &:hover {
-    color: var(--color-gray6);
+    color: var(--color-primary-washed);
     text-decoration: none;
   }
 }
 
 .c-mainnav__link.is-active {
   color: var(--color-white);
-  border-bottom-color: var(--color-primary-main);
+  border-bottom-color: var(--color-primary-washed);
 }

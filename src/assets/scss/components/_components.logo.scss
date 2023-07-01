@@ -3,18 +3,18 @@
 // --------------------------------
 
 .c-logo {
-  width: 112px;
+  // width: 112px;
   margin: 0;
   padding: 0;
   color: var(--color-white);
 
-  @include mq(medium) {
-    width: 132px;
-  }
+  // @include mq(medium) {
+  //   width: 132px;
+  // }
 
-  @include mq(large) {
-    width: 171px;
-  }
+  // @include mq(large) {
+  //   width: 171px;
+  // }
 }
 
 .c-logo__link {
