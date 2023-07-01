@@ -2,7 +2,6 @@ module.exports = {
   buildDate: new Date(),
   twitterHandle: "@collapsology",
   baseUrl: "https://www.collapsology.info",
-  basePath: "/test",
   title: "Collapsology Portal",
   description: "Better understand the current risks of social and environmental collapses.",
   fr: {

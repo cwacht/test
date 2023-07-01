@@ -52,7 +52,7 @@
       <div class="l-container  c-siteheader__inner">
         <div class="c-siteheader__logo">
           <p class="c-logo">
-            <a class="c-logo__link" href="{{ site.basePath }}/">
+            <a class="c-logo__link" href="/">
               KiP's Family Gymnastics
               {# {% include "svg/logo.svg" %} #}
             </a>
@@ -69,7 +69,7 @@
                 {% set activeAria = 'aria-current="page"' | safe %}
               {% endif %}
 
-              <li class="c-mainnav__item"><a href="{{- site.basePath ~ item.link -}}" class="c-mainnav__link  {{ activeClass }}" {{ activeAria }}>{{ item.label }}</a></li>
+              <li class="c-mainnav__item"><a href="{{- item.link -}}" class="c-mainnav__link  {{ activeClass }}" {{ activeAria }}>{{ item.label }}</a></li>
             {% if loop.last %}</ul>{% endif %}
           {% endfor %}
         </nav>
@@ -82,7 +82,7 @@
     <div class="c-mobilemenu  js-mobilemenu">
       <div class="l-container  c-mobilemenu__inner">
         <div class="c-mobilemenu__header">
-          <p class="c-logo  c-logo--invert"><a class="c-logo__link" href="{{ site.basePath }}/">{% include "svg/logo_dark.svg" %}</a></p>
+          <p class="c-logo  c-logo--invert"><a class="c-logo__link" href="/{{ locale }}/">{% include "svg/logo_dark.svg" %}</a></p>
           <button class="c-closemenu  js-navtoggle">{% include "svg/icon_close.svg" %}</button>
         </div>
         <nav class="c-mobilemenu__navigation">
@@ -96,7 +96,7 @@
                 {% set activeAria = 'aria-current="page"' | safe %}
               {% endif %}
 
-              <li class="c-mobilenav__item"><a class="c-mobilenav__link  {{ activeClass }}" href="{{- site.basePath ~ item.link -}}" {{ activeAria }}>{{ item.label }}</a></li>
+              <li class="c-mobilenav__item"><a class="c-mobilenav__link  {{ activeClass }}" href="{{- item.link -}}" {{ activeAria }}>{{ item.label }}</a></li>
             {% if loop.last %}</ul>{% endif %}
           {% endfor %}
         </nav>

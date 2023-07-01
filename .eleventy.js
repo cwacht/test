@@ -67,5 +67,6 @@ module.exports = function (eleventyConfig) {
     templateFormats: ["njk", "md"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
+    pathPrefix: "/eleventy-base-blog/"
   };
 };
