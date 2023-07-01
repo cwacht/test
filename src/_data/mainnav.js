@@ -10,6 +10,11 @@ module.exports = [
     link: "/classes/"
   },
   {
+    id: "enrichment",
+    label: "Enrichment",
+    link: "/enrichment/"
+  },
+  {
     id: "about",
     label: "About",
     link: "/about/"
