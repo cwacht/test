@@ -22,6 +22,6 @@ module.exports = [
   {
     id: "register",
     label: "Register",
-    link: "/register/"
+    link: "https://omfgym.getomnify.com/#!/home?auth=login"
   }
 ];
